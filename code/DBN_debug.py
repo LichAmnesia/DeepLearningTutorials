@@ -206,9 +206,6 @@ class DBN(object):
         '''
 
         (train_set_x, train_set_y) = datasets[0]
-        print type(train_set_x),type(train_set_y)
-        print train_set_x
-        print train_set_y
         (valid_set_x, valid_set_y) = datasets[1]
         (test_set_x, test_set_y) = datasets[2]
 
@@ -306,6 +303,9 @@ def test_DBN(finetune_lr=0.1, pretraining_epochs=100,
     datasets = load_data(dataset)
 
     train_set_x, train_set_y = datasets[0]
+    print type(train_set_x),type(train_set_y)
+    print train_set_x
+    print train_set_y
     valid_set_x, valid_set_y = datasets[1]
     test_set_x, test_set_y = datasets[2]
 
