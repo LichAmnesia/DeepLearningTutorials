@@ -206,6 +206,8 @@ def load_data(dataset):
 
     print('... loading data')
 
+    print(dataset)
+    
     # Load the dataset
     with gzip.open(dataset, 'rb') as f:
         try:
