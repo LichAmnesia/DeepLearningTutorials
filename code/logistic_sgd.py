@@ -474,4 +474,5 @@ def predict():
 
 
 if __name__ == '__main__':
+    predict()
     sgd_optimization_mnist()
